@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<!--
+    Name: Your Name 
+    Date Created: Today's date 
+    Most recent revision:
+-->
+<html lang="en"> 
+    <head> 
+        <title>Contact</title>	
+    </head> 
+    
+    <body>
+        <header>
+            <h1>Contact for Austin Holly</h1>
+        </header>
+
+        <nav>
+			<hr />
+				<a href="index.html" name="homePage">Home</a>
+			<hr />
+        </nav>
+		<h2>Information Request</h2>
+		<form action="submit.html" method="POST">
+		
+			<label for="firstName">First Name:</label><br />
+			<input type="text" id="firstName" /><br />
+			
+			<label for="lastName">Last Name:</label><br />
+			<input type="text" id="lastName" /><br />
+			
+			<label for="PhoneNumber">Phone Number:</label><br />
+			<input type="text" id="PhoneNumber" /><br />
+			
+			<label for="contact">Best time to call:</label><br />
+			<select id="contact" name="contact">
+				<option value="degault" selected>-- Select One --</option>
+				<option value="afternoon">Afternoon (12PM to 5PM Central)</option>
+				<option value="evening">Evening (5PM to 8PM Central)</option>
+				<option value="morning">Morning (8AM to 12PM Central)</option>
+			</select>
+			
+			<fieldset>
+				<legend>I am interesid in (check all that apply)</legend><br />
+				<input type="checkbox" id="frontEnd" name="interest" value="frontEnd" />
+				<label for="frontEnd">Front End Web Development</label><br />
+				<input type="checkbox" id="backEnd" name="interest" value="backEnd" />
+				<label for="backEnd">Back End Web Development</label><br />
+				<input type="checkbox" id="database" name="interest" value="database" />
+				<label for="database">Database Design</label><br />
+			</fieldset>
+			<fieldset>
+				<legend>I have filled in the client questionaire form:</legend><br />
+				<input type="radio" id="choice1" name="questionaire" value="yes" />
+				<label for="choice1">Yes</label><br />
+				<input type="radio" id="choice2" name="questionaire" value="no" />
+				<label for="choice2">No</label><br />
+			</fieldset>
+
+			<label for="info">Additional Information</label><br />
+			<textarea id="info"></textarea><br />
+			
+			<input type="submit" name="submit" value="Submit"/>
+		</form>
+
+        <footer>
+		<hr />
+        </footer>
+    </body> 
+</html>
