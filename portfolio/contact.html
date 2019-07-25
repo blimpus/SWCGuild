@@ -6,7 +6,9 @@
 -->
 <html lang="en"> 
     <head> 
-        <title>Contact</title>	
+        <title>Contact</title>
+		<link href="styles/main.css" rel="stylesheet" type="text/css" />
+		<link href="styles/forms.css" rel="stylesheet" type="text/css" />
     </head> 
     
     <body>
@@ -15,9 +17,9 @@
         </header>
 
         <nav>
-			<hr />
-				<a href="index.html" name="homePage">Home</a>
-			<hr />
+			
+			<a href="index.html" name="homePage">Home</a>
+			
         </nav>
 		<h2>Information Request</h2>
 		<form action="submit.html" method="POST">
@@ -40,7 +42,7 @@
 			</select>
 			
 			<fieldset>
-				<legend>I am interesid in (check all that apply)</legend><br />
+				<legend>I am interesid in (check all that apply)</legend>
 				<input type="checkbox" id="frontEnd" name="interest" value="frontEnd" />
 				<label for="frontEnd">Front End Web Development</label><br />
 				<input type="checkbox" id="backEnd" name="interest" value="backEnd" />
@@ -49,7 +51,7 @@
 				<label for="database">Database Design</label><br />
 			</fieldset>
 			<fieldset>
-				<legend>I have filled in the client questionaire form:</legend><br />
+				<legend>I have filled in the client questionaire form:</legend>
 				<input type="radio" id="choice1" name="questionaire" value="yes" />
 				<label for="choice1">Yes</label><br />
 				<input type="radio" id="choice2" name="questionaire" value="no" />
@@ -63,7 +65,7 @@
 		</form>
 
         <footer>
-		<hr />
+			<p>&copy; 2019 Austin Holly. All rights reserved.</p>
         </footer>
     </body> 
 </html>
