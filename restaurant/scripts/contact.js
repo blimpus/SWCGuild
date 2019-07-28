@@ -23,6 +23,7 @@ function validate(){
 	var lastName = document.forms["contact-form"]["lastName"].value;
 	var phone = document.forms["contact-form"]["phone"].value;
 	
+	//check to make sure fields are not empty and follow rules of fulfillment
 	if(firstName == "" || !isNaN(firstName)){
 		alert("First Name must not be blank and also not a number");
 		document.forms["contact-form"]["firstName"].parentElement.className = "form-group has-error";
