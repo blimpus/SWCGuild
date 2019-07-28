@@ -1,4 +1,11 @@
 // lucky sevens js file
+
+/*
+Created by: Austin Holly
+Creation Date: 7/26/2019
+Last Edited: 7/27/2019
+*/
+
 var dice1 = 0;
 var dice2 = 0;
 var endingRolls = 0;
